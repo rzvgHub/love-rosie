@@ -73,6 +73,10 @@ header {
     padding: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 .menuitem {
     height: 120px;
     text-align: center;
@@ -102,4 +106,20 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
